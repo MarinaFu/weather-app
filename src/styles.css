@@ -32,8 +32,8 @@ h3 {
 
 .page {
   max-width: 1000px;
-  margin: 100 0 0 0;
-  padding: 25px 70px;
+  margin: 0 auto;
+  padding: 50px 70px;
 }
 .dailytemp {
   font-size: 45px;
