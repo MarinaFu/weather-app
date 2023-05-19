@@ -37,7 +37,9 @@ footer {
   margin: 0 auto;
   padding: 50px 70px;
 }
-
+.github-link {
+  text-decoration: none;
+}
 .dailytemp {
   font-size: 45px;
 }
