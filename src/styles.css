@@ -31,7 +31,8 @@ h3 {
   padding-top: 15px;
 }
 
-.page {
+.page,
+footer {
   max-width: 1000px;
   margin: 0 auto;
   padding: 50px 70px;
