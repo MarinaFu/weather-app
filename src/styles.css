@@ -1,0 +1,87 @@
+body {
+  color: azure;
+  font-family: "McLaren", cursive;
+}
+img {
+  position: absolute;
+  width: 100%;
+}
+
+ul {
+  list-style-type: none;
+  padding-top: 15px;
+}
+
+p {
+  text-align: center;
+}
+h1,
+h3,
+h2,
+h4,
+h5 {
+  text-align: center;
+  color: azure;
+}
+h1 {
+  font-size: 45px;
+}
+h3 {
+  padding-top: 15px;
+}
+
+.page {
+  max-width: 1000px;
+  margin: 100 0 0 0;
+  padding: 25px 70px;
+}
+.dailytemp {
+  font-size: 45px;
+}
+.top-card {
+  margin: 15px;
+}
+.top-cloud {
+  text-align: center;
+  font-size: 60px;
+  display: block;
+  margin: 0 auto;
+  color: azure;
+}
+.daily {
+  color: azure;
+  text-align: center;
+  margin-top: 5px;
+  font-size: 12px;
+}
+
+.card {
+  background: transparent;
+  margin: 0 auto;
+  padding: 0;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+}
+.card-forcast {
+  padding: 0;
+}
+.cube {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+.bottom-cloud {
+  text-align: center;
+  font-size: 30px;
+  display: block;
+  margin: 0 auto;
+  color: azure;
+}
+.cardno {
+  background-color: black;
+  opacity: 0.3;
+}
+.motivation {
+  font-size: 18px;
+  color: azure;
+  font-weight: 600;
+}
