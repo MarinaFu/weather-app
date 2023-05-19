@@ -40,6 +40,17 @@ footer {
 .github-link {
   text-decoration: none;
 }
+.github-link:hover {
+  text-decoration: underline;
+}
+.temperature {
+  font-size: 64px;
+}
+.units {
+  font-size: 18px;
+  position: relative;
+  top: -34px;
+}
 .dailytemp {
   font-size: 45px;
 }
