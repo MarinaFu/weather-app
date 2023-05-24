@@ -45,14 +45,23 @@ footer {
   margin: 0 auto;
   padding: 50px 70px;
 }
-.github-link {
+.github-link,
+#fahrenheit-link,
+#celsius-link {
   text-decoration: none;
 }
-.github-link:hover {
+.github-link:hover,
+#fahrenheit-link:hover {
   text-decoration: underline;
+}
+#celsius-link {
+  color: azure;
 }
 .temperature {
   font-size: 64px;
+}
+#celsius-link:hover {
+  cursor: default;
 }
 .units {
   font-size: 18px;
