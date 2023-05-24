@@ -2,7 +2,7 @@ body {
   color: azure;
   font-family: "McLaren", cursive;
 }
-#background img {
+img {
   position: absolute;
   width: 100%;
   z-index: -1;
@@ -60,7 +60,7 @@ footer {
 .top-card {
   margin: 15px;
 }
-.top-cloud {
+.top-cloud img {
   text-align: center;
   font-size: 60px;
   display: block;
