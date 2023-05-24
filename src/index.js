@@ -52,7 +52,7 @@ form.addEventListener("submit", search);
 
 // 17/05/2023
 function showTemperature(response) {
-  let iconElement = document.querySelector(".top-cloud");
+  let iconElement = document.querySelector("#firstIcon");
   iconElement.setAttribute(
     "src",
     `https://openweathermap.org/img/wn/${response.data.weather[0].icon}@2x.png`
