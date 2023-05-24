@@ -30,6 +30,9 @@ h1 {
 h3 {
   padding-top: 15px;
 }
+li {
+  text-transform: capitalize;
+}
 
 .page,
 footer {
