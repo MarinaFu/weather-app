@@ -62,7 +62,8 @@ footer {
   margin: 15px;
 }
 
-.top-cloud {
+.top-cloud,
+.temperature {
   text-align: center;
   font-size: 60px;
   display: block;
