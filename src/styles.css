@@ -31,6 +31,10 @@ h1 {
 h3 {
   padding-top: 15px;
 }
+h2 {
+  margin: 0;
+  height: 80px;
+}
 li:first-letter {
   text-transform: capitalize;
 }
@@ -55,6 +59,9 @@ footer {
   position: relative;
   top: -34px;
 }
+#description {
+  margin-bottom: 10px;
+}
 .dailytemp {
   font-size: 45px;
 }
@@ -62,18 +69,16 @@ footer {
   margin: 15px;
 }
 
-.top-cloud,
-.temperature {
+.top-cloud {
   text-align: center;
   font-size: 60px;
-  display: block;
-  margin: 0 auto;
+
   color: azure;
 }
 .daily {
   color: azure;
   text-align: center;
-  margin-top: 5px;
+
   font-size: 12px;
 }
 
