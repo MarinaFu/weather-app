@@ -54,13 +54,13 @@ footer {
 #fahrenheit-link:hover {
   text-decoration: underline;
 }
-#celsius-link {
+.active {
   color: azure;
 }
 .temperature {
   font-size: 64px;
 }
-#celsius-link:hover {
+#celsius-link .active:hover {
   cursor: default;
 }
 .units {
