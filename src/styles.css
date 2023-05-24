@@ -2,6 +2,7 @@ body {
   color: azure;
   font-family: "McLaren", cursive;
 }
+
 .background {
   position: absolute;
   width: 100%;
@@ -61,7 +62,7 @@ footer {
   margin: 15px;
 }
 
-#firstIcon {
+.top-cloud {
   text-align: center;
   font-size: 60px;
   display: block;
