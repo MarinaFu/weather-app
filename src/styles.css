@@ -60,7 +60,8 @@ footer {
 .top-card {
   margin: 15px;
 }
-.top-cloud img {
+
+#firstIcon img {
   text-align: center;
   font-size: 60px;
   display: block;
