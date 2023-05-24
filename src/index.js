@@ -52,6 +52,11 @@ form.addEventListener("submit", search);
 
 // 17/05/2023
 function showTemperature(response) {
+  let iconElement = document.querySelector("#firstIcon");
+  iconElement.setAttribute(
+    "src",
+    `https://openweathermap.org/img/wn/${response.data.weather[0].icon}@2x.png`
+  );
   let temperature = Math.round(response.data.main.temp);
   document.querySelector("#searchCity").innerHTML = response.data.name;
   let currentTemperature = document.querySelector("#current-temp");
