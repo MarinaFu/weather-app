@@ -128,3 +128,27 @@ let celsiusLink = document.querySelector("#celsius-link");
 celsiusLink.addEventListener("click", showCelsiusTemperature);
 
 searchCity("Amsterdam");
+
+function displayforecast() {
+  let forecast = document.querySelector("#forecast-temperature");
+
+  let forecastHTML = `<div class="row">`;
+  let forecastDays = ["day1", "day2", "day3", "day4", "day5", "day6"];
+  forecastDays.forEach(function (day) {
+    forecastHTML =
+      forecastHTML +
+      `
+    <div class="col-2">
+        <div class="first"> <p> ${day} </p> </div>
+        <div class="second"> <i class="fa-solid fa-cloud bottom-cloud"></i></div>
+        <div class="third">
+          <span class="min">12°</span>
+           <span class="max">15°</span></div>
+      </div>`;
+  });
+
+  forecastHTML = forecastHTML + `</div>`;
+
+  forecast.innerHTML = forecastHTML;
+}
+displayforecast();
