@@ -50,13 +50,10 @@ footer {
   margin: 0 auto;
   padding: 0 70px;
 }
-.github-link,
-#fahrenheit-link,
-#celsius-link {
+.github-link {
   text-decoration: none;
 }
-.github-link:hover,
-#fahrenheit-link:hover {
+.github-link:hover {
   text-decoration: underline;
 }
 .active {
@@ -65,9 +62,7 @@ footer {
 .temperature {
   font-size: 64px;
 }
-#celsius-link .active:hover {
-  cursor: default;
-}
+
 .units {
   font-size: 18px;
   position: relative;
