@@ -73,10 +73,10 @@ function showTemperature(response) {
 }
 
 function getForecast(coordinates) {
-  let apiKey = "9fc1ce91583db8398ec357be4554346e";
+  let apiKey = "97bed167ec49bff56e6c1b63daef9c86";
   let units = "metric";
-  let apiUrl = `https://api.openweathermap.org/data/3.0/onecall?lat=${coordinates.lat}&lon=${coordinates.lon}&appid=${apiKey}&units=${units}`;
-  axios.get(apiUrl).then(displayforecast);
+  let apiUrl = `https://api.openweathermap.org/data/2.5/onecall?lat=${coordinates.lat}&lon=${coordinates.lon}&appid=${apiKey}&units=${units}`;
+  axios.get(apiUrl).then(displayForecast);
 }
 
 function searchCity(city) {
@@ -88,7 +88,6 @@ function searchCity(city) {
 
 function searchTemp(event) {
   event.preventDefault();
-
   let city = document.querySelector("#inputSearch").value;
   searchCity(city);
 }
@@ -138,7 +137,7 @@ celsiusLink.addEventListener("click", showCelsiusTemperature);
 
 searchCity("Amsterdam");
 
-function displayforecast(response) {
+function displayForecast(response) {
   let forecast = document.querySelector("#forecast-temperature");
 
   let forecastHTML = `<div class="row">`;
